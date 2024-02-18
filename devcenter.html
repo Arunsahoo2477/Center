@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            background-color: brown;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        .child{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            background-color: #feb139;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child"></div>
+    </div>
+</body>
+</html>
